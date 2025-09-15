@@ -55,7 +55,7 @@ async function runDemo() {
     console.log('\n⏳ Step 4: Monitor progress');
     let completed = false;
     let attempts = 0;
-    const maxAttempts = 120; // 2 minutes timeout
+    const maxAttempts = 1200; // 2 minutes timeout
 
     while (!completed && attempts < maxAttempts) {
       await new Promise(resolve => setTimeout(resolve, 1000));

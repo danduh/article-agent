@@ -11,7 +11,7 @@
   "language": "en",
   "models": {
     "outline": "gpt-4o",
-    "draft": "anthropic/claude-3-5-sonnet",
+    "draft": "gpt-4o",
     "refine": "gpt-4o"
   },
   "research": {
