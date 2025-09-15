@@ -1,0 +1,62 @@
+{
+  "id": "ai-coding-tools",
+  "version": "2.1.0",
+  "status": "active",
+  "title": "AI-Powered Coding Tools: Revolutionizing Software Development",
+  "description": "Comprehensive analysis of AI coding assistants, their capabilities, limitations, and impact on developer productivity",
+  "audience": "software developers",
+  "tone": "professional",
+  "reading_level": "B2",
+  "length": "1800-2200",
+  "language": "en",
+  "models": {
+    "outline": "gpt-4o",
+    "draft": "gpt-4o",
+    "refine": "gpt-4o"
+  },
+  "research": {
+    "enabled": true,
+    "sources": ["duckduckgo"],
+    "allowlist": ["*.github.com", "*.stackoverflow.com", "*.hackernews.com", "*.dev.to", "*.medium.com", "*.techcrunch.com"],
+    "min_sources": 5,
+    "max_sources": 12,
+    "freshness_days": 90,
+    "required_keywords": ["AI coding", "GitHub Copilot", "code generation", "developer tools"]
+  },
+  "outline": {
+    "required_sections": ["Introduction", "Popular AI Coding Tools", "Productivity Impact", "Limitations and Challenges", "Best Practices", "Future Developments", "Conclusion"],
+    "max_sections": 10,
+    "section_depth": 3,
+    "include_subsections": true
+  },
+  "seo": {
+    "keywords": ["AI coding tools", "GitHub Copilot", "code generation", "developer productivity", "AI programming assistants", "automated coding"],
+    "keyword_density": "1.8-2.3%",
+    "meta_title_length": {
+      "min": 35,
+      "max": 55
+    },
+    "meta_description_length": {
+      "min": 130,
+      "max": 155
+    },
+    "internal_links": {
+      "min": 4,
+      "max": 10
+    },
+    "external_links": {
+      "min": 3,
+      "max": 8
+    }
+  },
+  "output": {
+    "formats": ["md", "html", "json"],
+    "include_metadata": true,
+    "include_citations": true,
+    "include_outline": true
+  },
+  "created_at": "2025-01-10T14:30:00Z",
+  "updated_at": "2025-01-15T09:15:00Z",
+  "tags": ["AI", "Development Tools", "Productivity", "Software Engineering"],
+  "priority": 9
+}
