@@ -1,0 +1,71 @@
+{
+  "id": "ai-ethics-2025",
+  "version": "1.0.0",
+  "status": "active",
+  "title": "AI Ethics in 2025: Navigating Responsibility in the Age of Autonomous Systems",
+  "description": "A comprehensive examination of ethical considerations, governance frameworks, and best practices for responsible AI development.",
+  "audience": "business leaders and technologists",
+  "tone": "formal",
+  "reading_level": "C1",
+  "length": "2000-2500",
+  "models": {
+    "outline": "gpt-4o",
+    "draft": "anthropic/claude-3",
+    "refine": "gpt-4o"
+  },
+  "research": {
+    "enabled": true,
+    "sources": ["duckduckgo"],
+    "allowlist": ["*.mit.edu", "*.stanford.edu", "*.nature.com", "*.ieee.org", "*.acm.org"],
+    "min_sources": 5,
+    "max_sources": 10,
+    "freshness_days": 60
+  },
+  "outline": {
+    "required_sections": [
+      "Introduction",
+      "Current Ethical Frameworks",
+      "Bias and Fairness",
+      "Privacy and Data Rights",
+      "Accountability and Transparency",
+      "Regulatory Landscape",
+      "Best Practices",
+      "Case Studies",
+      "Future Directions",
+      "Conclusion"
+    ],
+    "max_depth": 3,
+    "min_sections": 8,
+    "max_sections": 12
+  },
+  "seo": {
+    "keywords": [
+      "AI ethics",
+      "responsible AI",
+      "algorithmic bias",
+      "AI governance",
+      "ethical AI framework",
+      "AI transparency",
+      "machine learning ethics"
+    ],
+    "keyword_density": "1-3%",
+    "meta_description_length": {
+      "min": 140,
+      "max": 160
+    },
+    "internal_links": 3,
+    "external_links": 5
+  },
+  "output": {
+    "formats": ["md", "html", "json"],
+    "include_metadata": true,
+    "include_citations": true
+  },
+  "custom_instructions": "Focus on actionable insights and practical frameworks. Include real-world examples of both successes and failures. Address both technical and societal implications. Maintain a balanced perspective between innovation and responsibility.",
+  "terminology": {
+    "AI": "artificial intelligence",
+    "ML": "machine learning",
+    "AGI": "artificial general intelligence",
+    "GDPR": "General Data Protection Regulation"
+  }
+}
